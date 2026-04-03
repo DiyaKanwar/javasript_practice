@@ -38,15 +38,18 @@ const newobject= {...obj3,...obj4}
 console.log(newobject)
 */
 const arr=[
-     obj ={
-      password: "amazon",
+     {
+      password: "amazon", 
       email:"kanwar@gmail.com",  
     },
-    obj2={
-        age:22
+    
+    {
+        age:22,
+        gender: "female"
     }
-]
-console.log(arr)
+]   
+// console.log(arr)  
+console.log(arr[password])
 // console.log(obj5)
 // console.log(obj)
 
