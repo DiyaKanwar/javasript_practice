@@ -40,16 +40,23 @@ console.log(newobject)
 const arr=[
      {
       password: "amazon", 
-      email:"kanwar@gmail.com",  
+      email:"kanwar@gmail.com", 
+      id: {
+       //id1: 4344,
+        id2: 33
+      }
     },
-    
     {
         age:22,
         gender: "female"
     }
 ]   
+// console.log(arr[1].gender)
+
+console.log(arr[0].id?.id1)
+
 // console.log(arr)  
-console.log(arr[password])
+// console.log(arr[password])
 // console.log(obj5)
 // console.log(obj)
 
