@@ -1,5 +1,5 @@
-const arr = [6,4,5,4,8];
-const num=3;
+// const arr = [6,4,5,4,8];
+// const num=3;
 //console.log(arr[1]);
 //arr.push(8);
 //console.log(arr);
@@ -33,23 +33,52 @@ const num=3;
 // const new1=Array.from("Hello world")
 // console.log(new1)
 
-const n1=23
-const n2=24
+// const n1=23
+// const n2=24
 
-const n3=25
-// console.log(Array.of(n1,n2,n3))
+// const n3=25
+// // console.log(Array.of(n1,n2,n3))
 
-
-
-
-
-const arrn = Array.of(2,3,4)
-for (let index = 0; index < arrn.length; index++) {
-    arrn[index]=arrn[index]*2
+// const arrn = Array.of(2,3,4)
+// for (let index = 0; index < arrn.length; index++) {
+//     arrn[index]=arrn[index]*2
     
-}
-console.log(arrn)
-// console.log(typeof arrn)
+// }
+// console.log(arrn)
+// // console.log(typeof arrn)
+
+// const arr=[2,3,5]
+// const newarr=arr.map((num)=>num*2)
+
+// const arr1=[1,2,3,4,5,6,7,8,9,10];
+// const newar1=arr1.filter((num)=>num%2!=0)
+// console.log(newar1)
+
+// const arr2=[1,2,3,4,5,6,8,7,9,10]; 
+// const newarr2=arr2.filter((num)=>num%3==0)
+// console.log(newarr2)
+
+// const arr1=[1,2,3,4,5,6,7,8,9,10]
+
+// const rs=arr1.reduce((prev, curr)=> prev*curr,1)
+// console.log(rs)
+
+// const arr2=[1,2,3,4,5,6,7,8,9,10]
+// const out=arr2.reduce((prev,cur)=>prev+cur,1)
+// console.log(out)
+// //map , filter ,sum ,inside one single array
+// // console.log(arr)
+// // console.log(newarr)
+
+// console.log(arr2.map((n)=>n+2).filter((n)=>n%2==0).reduce((p,c)=>p+c))
+
+//Sorting
+
+// const arr=[8,18,80,100]
+// //sorting asc ,des
+// arr.sort((a,b)=>a-b)
+
+// console.log(arr)
 
 
 
