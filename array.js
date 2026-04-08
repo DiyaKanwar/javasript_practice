@@ -1,14 +1,13 @@
-// const arr = [6,4,5,4,8];
+const arr = [6,4,5,4,8];
 // const num=3;
 //console.log(arr[1]);
 //arr.push(8);
 //console.log(arr);
-//arr.pop()
+arr.pop()
+arr.shift()
+console.log(arr)
 
 
-
-
-//arr.shift()
 //arr.unshift(7)
 //arr.unshift(3,5,4)
 //console.log(arr.length)
@@ -27,10 +26,10 @@
 // const arr2= [3,4,7,8];
 // const arr3=[...arr2,...arr4,...arr] // spread operator
 // console.log(arr3)
-// const nesarr=[2,3,4,5,[4,2],5,3,[7,4]]
+// const nesarr=[2,3,4,5,[4,2,[6,8,[8]]],5,3,[7,4]]
 // console.log(nesarr)
 
-// const newarr= nesarr.flat(3)
+// const newarr= nesarr.flat(2)
 // console.log(newarr)
 // console.log(Array.isArray(num))
 // const new1=Array.from("Hello world")
