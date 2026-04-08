@@ -98,16 +98,28 @@ addi(1, 4, 10, 5, 89, 90, 6)
 // console.log(addition(1,4))
 
 
-//1. const addtwo=num=>num+2
+// Because {} removes implicit return
+// Now you must explicitly write return
+//1. const addtwo=num// input =>num+2 //what to do
 //implicit return without paranthesis because its a single parameter passed
 // console.log(addtwo(9))
+ 
+// This is the arrow that separates:
 
+// left side → inputs
+// right side → what to do
+
+// const addtwo =num=>num+2
+// console.log(addtwo(9))
+
+//()=>{} 
 //2. const addt=(num)=>num+2
+//without using return keyword
 //implicit return but here optional paranthesis is used , we have to use paranthesis for multiple return as well 
 // console.log(addtwo(9))
 
 
-//3. const add= (num1,num2)=>num1+num2
+//3.    const add= (num1,num2)=>num1+num2
 //     //implicit return , here the parathesis in return is optional
 // add(1,3)
 

@@ -5,6 +5,9 @@
 //console.log(arr);
 //arr.pop()
 
+
+
+
 //arr.shift()
 //arr.unshift(7)
 //arr.unshift(3,5,4)
